@@ -1,0 +1,1308 @@
+[
+  {
+    "id": "cosy-mug",
+    "name": "Cosy Mug",
+    "cuisine": "Cafe & Brazilian Bites",
+    "description": "A cosy cafe menu with breakfast plates, Brazilian bites, burgers, rolls, wraps, pancakes, jacket potatoes, coffee and cold drinks. Halal options available; please ask server.",
+    "coverImage": null,
+    "logo": null,
+    "show_images": true,
+    "theme": {
+      "primary": "#4a3222",
+      "background": "#f3ede0",
+      "surface": "#ffffff",
+      "text": "#241a0f",
+      "textMuted": "#7a6a52",
+      "accent": "#9aab85"
+    },
+    "categories": [
+      {
+        "id": "breakfast",
+        "name": "Breakfast",
+        "description": "Breakfast plates and English breakfast options",
+        "items": [
+          {
+            "id": "the-english",
+            "name": "The English",
+            "description": "1 bacon, 1 Cumberland sausage, egg, 1 hash brown, baked beans, toast, mushrooms and grilled tomatoes.",
+            "price": 10.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "vegetarian-english",
+            "name": "Vegetarian English",
+            "description": "1 vegetarian sausage, egg, 1 hash brown, baked beans, toast, mushrooms and grilled tomatoes.",
+            "price": 10.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "halal-english",
+            "name": "Halal English",
+            "description": "1 halal turkey rasher, 1 halal beef sausage, egg, 1 hash brown, baked beans, toast, mushrooms and grilled tomatoes.",
+            "price": 10.0,
+            "image": null,
+            "tags": [
+              "halal"
+            ],
+            "available": true
+          },
+          {
+            "id": "full-english",
+            "name": "Full English",
+            "description": "2 bacon, 2 Cumberland sausages, 2 eggs, 2 hash browns, baked beans, toast, mushrooms and grilled tomatoes.",
+            "price": 12.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-breakfast",
+            "name": "Cosy Breakfast",
+            "description": "2 bacon, 2 Cumberland sausage, egg, puff puff, baked beans, fried plantain, mushrooms, grilled tomatoes and berries.",
+            "price": 14.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "o-brasileiro",
+            "name": "O Brasileiro",
+            "description": "Grilled Brazilian bread, cheese bread, 2 eggs, grilled honey halloumi cheese, cassava fries, berries, 2 Toscana sausages and cosy mayo.",
+            "price": 14.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "kids-english",
+            "name": "Kids English",
+            "description": "1 sausage, baked beans, chips and Fruit Shoot.",
+            "price": 6.0,
+            "image": null,
+            "tags": [
+              "kids"
+            ],
+            "available": true
+          },
+          {
+            "id": "kids-nuggets-meal",
+            "name": "Kids Nuggets Meal",
+            "description": "4 nuggets, chips and Fruit Shoot.",
+            "price": 6.0,
+            "image": null,
+            "tags": [
+              "kids"
+            ],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "addons",
+        "name": "Add-ons",
+        "description": "Extra sides and additions",
+        "items": [
+          {
+            "id": "fries",
+            "name": "Fries",
+            "description": "",
+            "price": 3.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "fried-plantain",
+            "name": "Fried Plantain",
+            "description": "",
+            "price": 3.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "hashbrown",
+            "name": "Hashbrown",
+            "description": "",
+            "price": 1.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "mushrooms",
+            "name": "Mushrooms",
+            "description": "",
+            "price": 1.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "tomato",
+            "name": "Tomato",
+            "description": "",
+            "price": 1.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage",
+            "name": "Sausage",
+            "description": "",
+            "price": 2.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon",
+            "name": "Bacon",
+            "description": "",
+            "price": 2.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "egg",
+            "name": "Egg",
+            "description": "",
+            "price": 2.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "beans",
+            "name": "Beans",
+            "description": "",
+            "price": 2.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "halloumi",
+            "name": "Halloumi",
+            "description": "",
+            "price": 3.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "toast",
+            "name": "Toast",
+            "description": "",
+            "price": 1.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "avocado",
+            "name": "Avocado",
+            "description": "",
+            "price": 3.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "cosy-bites",
+        "name": "Cosy Bites",
+        "description": "Small bites and snacks. Halal options available, please ask server.",
+        "items": [
+          {
+            "id": "pastel-cheese",
+            "name": "Pastel Cheese",
+            "description": "Brazilian-style pastel with cheese.",
+            "price": 4.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "pastel-ham-and-cheese",
+            "name": "Pastel Ham & Cheese",
+            "description": "Brazilian-style pastel with ham and cheese.",
+            "price": 4.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "pastel-beef",
+            "name": "Pastel Beef",
+            "description": "Brazilian-style pastel with beef.",
+            "price": 5.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "pastel-beef-and-cheese",
+            "name": "Pastel Beef & Cheese",
+            "description": "Brazilian-style pastel with beef and cheese.",
+            "price": 5.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "shrimp-turnovers",
+            "name": "Shrimp Turnovers",
+            "description": "Rissois de Camarão.",
+            "price": 3.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "apple-pie-and-custard",
+            "name": "Apple Pie & Custard",
+            "description": "",
+            "price": 5.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "loaded-fries",
+            "name": "Loaded Fries",
+            "description": "Fries with melted nacho cheese.",
+            "price": 4.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "a-ai-bowl",
+            "name": "Açai Bowl",
+            "description": "Served with choice of tropical granola, berries, powdered milk, condensed milk, Nutella or Biscoff.",
+            "price": 8.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "cosy-puff-puff",
+            "name": "Cosy Puff Puff",
+            "description": "Portion of 5 mini puff puffs.",
+            "price": 3.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "cosy-cheese-bites",
+            "name": "Cosy Cheese Bites",
+            "description": "Pão de Queijo.",
+            "price": 3.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "beef-croquette",
+            "name": "Beef Croquette",
+            "description": "Coxinha de Carne.",
+            "price": 3.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "chicken-croquette",
+            "name": "Chicken Croquette",
+            "description": "Coxinha de Frango.",
+            "price": 3.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "chicken-and-cream-cheese-croquette",
+            "name": "Chicken & Cream Cheese Croquette",
+            "description": "Coxinha de Frango com Catupiry.",
+            "price": 3.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "jacket-potatoes",
+        "name": "Jacket Potatoes",
+        "description": "Classic jacket potatoes with fillings.",
+        "items": [
+          {
+            "id": "jacket-potato-cheese",
+            "name": "Jacket Potato Cheese",
+            "description": "Served with cheese.",
+            "price": 7.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "jacket-potato-beans",
+            "name": "Jacket Potato Beans",
+            "description": "Served with beans.",
+            "price": 7.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "jacket-potato-cheese-and-beans",
+            "name": "Jacket Potato Cheese & Beans",
+            "description": "Served with cheese and beans.",
+            "price": 8.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "jacket-potato-tuna-mayo",
+            "name": "Jacket Potato Tuna Mayo",
+            "description": "Served with tuna mayo.",
+            "price": 8.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "jacket-potato-tuna-mayo-sweetcorn",
+            "name": "Jacket Potato Tuna Mayo Sweetcorn",
+            "description": "Served with tuna mayo and sweetcorn.",
+            "price": 9.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "jacket-potato-chicken-mayo-sweetcorn",
+            "name": "Jacket Potato Chicken Mayo Sweetcorn",
+            "description": "Served with chicken mayo and sweetcorn.",
+            "price": 9.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "jacket-potato-chicken-bacon-and-mayo",
+            "name": "Jacket Potato Chicken, Bacon & Mayo",
+            "description": "Served with chicken, bacon and mayo.",
+            "price": 9.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "sweet-jacket-potatoes",
+        "name": "Sweet Jacket Potatoes",
+        "description": "Sweet jacket potatoes with fillings.",
+        "items": [
+          {
+            "id": "sweet-jacket-potato-cheese",
+            "name": "Sweet Jacket Potato Cheese",
+            "description": "Served with cheese.",
+            "price": 8.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "sweet-jacket-potato-beans",
+            "name": "Sweet Jacket Potato Beans",
+            "description": "Served with beans.",
+            "price": 8.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "sweet-jacket-potato-cheese-and-beans",
+            "name": "Sweet Jacket Potato Cheese & Beans",
+            "description": "Served with cheese and beans.",
+            "price": 9.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "sweet-jacket-potato-tuna-mayo",
+            "name": "Sweet Jacket Potato Tuna Mayo",
+            "description": "Served with tuna mayo.",
+            "price": 9.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sweet-jacket-potato-tuna-mayo-sweetcorn",
+            "name": "Sweet Jacket Potato Tuna Mayo Sweetcorn",
+            "description": "Served with tuna mayo and sweetcorn.",
+            "price": 10.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sweet-jacket-potato-chicken-mayo-sweetcorn",
+            "name": "Sweet Jacket Potato Chicken Mayo Sweetcorn",
+            "description": "Served with chicken mayo and sweetcorn.",
+            "price": 10.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sweet-jacket-potato-chicken-bacon-and-mayo",
+            "name": "Sweet Jacket Potato Chicken, Bacon & Mayo",
+            "description": "Served with chicken, bacon and mayo.",
+            "price": 10.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "omelettes",
+        "name": "Omelettes",
+        "description": "Omelettes served with chips or with chips, salad and beans.",
+        "items": [
+          {
+            "id": "plain-omelette-with-chips",
+            "name": "Plain Omelette with Chips",
+            "description": "Served with chips.",
+            "price": 7.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "plain-omelette-with-chips-salad-and-beans",
+            "name": "Plain Omelette with Chips, Salad & Beans",
+            "description": "Served with chips, salad and beans.",
+            "price": 7.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "cheese-omelette-with-chips",
+            "name": "Cheese Omelette with Chips",
+            "description": "Served with chips.",
+            "price": 8.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "cheese-omelette-with-chips-salad-and-beans",
+            "name": "Cheese Omelette with Chips, Salad & Beans",
+            "description": "Served with chips, salad and beans.",
+            "price": 8.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "ham-and-cheese-omelette-with-chips",
+            "name": "Ham & Cheese Omelette with Chips",
+            "description": "Served with chips.",
+            "price": 8.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "ham-and-cheese-omelette-with-chips-salad-and-beans",
+            "name": "Ham & Cheese Omelette with Chips, Salad & Beans",
+            "description": "Served with chips, salad and beans.",
+            "price": 9.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "mushroom-omelette-with-chips",
+            "name": "Mushroom Omelette with Chips",
+            "description": "Served with chips.",
+            "price": 8.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "mushroom-omelette-with-chips-salad-and-beans",
+            "name": "Mushroom Omelette with Chips, Salad & Beans",
+            "description": "Served with chips, salad and beans.",
+            "price": 8.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "chicken-omelette-with-chips",
+            "name": "Chicken Omelette with Chips",
+            "description": "Served with chips.",
+            "price": 9.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "chicken-omelette-with-chips-salad-and-beans",
+            "name": "Chicken Omelette with Chips, Salad & Beans",
+            "description": "Served with chips, salad and beans.",
+            "price": 9.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "spanish-omelette-with-chips",
+            "name": "Spanish Omelette with Chips",
+            "description": "Served with chips. Peas, mushrooms, cheese, onions and tomato.",
+            "price": 10.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "spanish-omelette-with-chips-salad-and-beans",
+            "name": "Spanish Omelette with Chips, Salad & Beans",
+            "description": "Served with chips, salad and beans. Peas, mushrooms, cheese, onions and tomato.",
+            "price": 11.0,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "pancakes",
+        "name": "Pancakes",
+        "description": "Pancake stacks with sweet and savoury options.",
+        "items": [
+          {
+            "id": "pancake-stack",
+            "name": "Pancake Stack",
+            "description": "3 pancakes stacked served with berries and a scoop of vanilla ice cream. Option of drizzle: honey, Biscoff, Nutella or maple syrup.",
+            "price": 8.5,
+            "image": null,
+            "tags": [
+              "vegetarian"
+            ],
+            "available": true
+          },
+          {
+            "id": "pancake-and-bacon-stack",
+            "name": "Pancake & Bacon Stack",
+            "description": "3 pancakes stacked with either bacon or turkey rashers. Option of drizzle: honey, Biscoff, Nutella or maple syrup.",
+            "price": 10.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "burgers",
+        "name": "Burgers",
+        "description": "Burgers served with fries.",
+        "items": [
+          {
+            "id": "cosy-cheese-burger",
+            "name": "Cosy Cheese Burger",
+            "description": "1 beef patty, sauce, 1 American cheese slice, caramelised onions and lettuce, served with fries.",
+            "price": 12.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-double-cheese-burger",
+            "name": "Cosy Double Cheese Burger",
+            "description": "2 beef patties, sauce, 2 American cheese slices, caramelised onions and lettuce, served with fries.",
+            "price": 14.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-chicken-burger",
+            "name": "Cosy Chicken Burger",
+            "description": "Brioche buns, breaded chicken, 2 American cheese slices, caramelised onions, lettuce and tomato. Served with fries.",
+            "price": 12.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-cheese-plus-burger",
+            "name": "Cosy Cheese Plus Burger",
+            "description": "Brioche buns, 2 beef patties, 2 American cheese slices, fried egg, caramelised onions, lettuce and tomato. Served with fries.",
+            "price": 15.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-big-cheese-burger",
+            "name": "Cosy Big Cheese Burger",
+            "description": "Brioche buns, 2 beef patties, fried egg, 2 American cheese slices, battered cheddar cheese, caramelised onions, lettuce and tomato. Served with fries.",
+            "price": 15.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-x-bacon-burger",
+            "name": "Cosy X-Bacon Burger",
+            "description": "Brioche buns, 2 beef patties, fried egg, 2 American cheese slices, caramelised onions, bacon/turkey rashers, lettuce, plantain and tomato. Served with fries.",
+            "price": 16.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cosy-x-tudo-burger",
+            "name": "Cosy X-Tudo Burger",
+            "description": "Brioche buns, 2 beef patties, 2 American cheese slices, fried egg, bacon/turkey rashers, sausage, onion rings, lettuce, plantain and tomato. Served with fries.",
+            "price": 17.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "rolls-bagels-sandwiches",
+        "name": "Rolls, Bagels & Sandwiches",
+        "description": "Breakfast rolls, bagels and sandwiches.",
+        "items": [
+          {
+            "id": "bacon-roll-or-bagel",
+            "name": "Bacon Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.4,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-sandwich",
+            "name": "Bacon Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 4.8,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage-roll-or-bagel",
+            "name": "Sausage Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage-sandwich",
+            "name": "Sausage Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 4.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-and-egg-roll-or-bagel",
+            "name": "Bacon & Egg Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.7,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-and-egg-sandwich",
+            "name": "Bacon & Egg Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 5.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage-and-egg-roll-or-bagel",
+            "name": "Sausage & Egg Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage-and-egg-sandwich",
+            "name": "Sausage & Egg Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 4.9,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-and-sausage-roll-or-bagel",
+            "name": "Bacon & Sausage Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.8,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-and-sausage-sandwich",
+            "name": "Bacon & Sausage Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 5.3,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-sausage-and-egg-roll-or-bagel",
+            "name": "Bacon, Sausage & Egg Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 5.1,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-sausage-and-egg-sandwich",
+            "name": "Bacon, Sausage & Egg Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 5.6,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "tuna-mayo-roll-or-bagel",
+            "name": "Tuna Mayo Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.1,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "tuna-mayo-sandwich",
+            "name": "Tuna Mayo Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 4.7,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "tuna-mayo-and-sweetcorn-roll-or-bagel",
+            "name": "Tuna Mayo & Sweetcorn Roll or Bagel",
+            "description": "Available as a roll or bagel.",
+            "price": 4.6,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "tuna-mayo-and-sweetcorn-sandwich",
+            "name": "Tuna Mayo & Sweetcorn Sandwich",
+            "description": "Available as a sandwich.",
+            "price": 5.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "brazilian-rolls",
+        "name": "Brazilian Roll",
+        "description": "Brazilian-style rolls.",
+        "items": [
+          {
+            "id": "butter-brazilian-roll",
+            "name": "Butter Brazilian Roll",
+            "description": "",
+            "price": 3.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage-brazilian-roll",
+            "name": "Sausage Brazilian Roll",
+            "description": "",
+            "price": 4.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-and-egg-brazilian-roll",
+            "name": "Bacon & Egg Brazilian Roll",
+            "description": "",
+            "price": 5.7,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "sausage-and-egg-brazilian-roll",
+            "name": "Sausage & Egg Brazilian Roll",
+            "description": "",
+            "price": 5.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "ham-and-cheese-brazilian-roll",
+            "name": "Ham & Cheese Brazilian Roll",
+            "description": "",
+            "price": 5.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "ham-cheese-and-bacon-brazilian-roll",
+            "name": "Ham, Cheese & Bacon Brazilian Roll",
+            "description": "",
+            "price": 6.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-sausage-and-egg-brazilian-roll",
+            "name": "Bacon, Sausage & Egg Brazilian Roll",
+            "description": "",
+            "price": 6.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "bacon-and-sausage-brazilian-roll",
+            "name": "Bacon & Sausage Brazilian Roll",
+            "description": "",
+            "price": 6.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "wraps",
+        "name": "Wraps",
+        "description": "Filled wraps.",
+        "items": [
+          {
+            "id": "grilled-chicken-wrap",
+            "name": "Grilled Chicken Wrap",
+            "description": "",
+            "price": 7.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "breaded-chicken-wrap",
+            "name": "Breaded Chicken Wrap",
+            "description": "",
+            "price": 7.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "grilled-chicken-and-bacon-wrap",
+            "name": "Grilled Chicken & Bacon Wrap",
+            "description": "",
+            "price": 8.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "grilled-chicken-bacon-and-avocado-wrap",
+            "name": "Grilled Chicken, Bacon & Avocado Wrap",
+            "description": "",
+            "price": 9.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "toast",
+        "name": "Toast",
+        "description": "Toast options.",
+        "items": [
+          {
+            "id": "avocado-and-poached-egg-toast",
+            "name": "Avocado & Poached Egg Toast",
+            "description": "Avocado and poached egg on toast.",
+            "price": 8.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "hot-drinks",
+        "name": "Hot Drinks",
+        "description": "Hot coffees, tea and chocolate.",
+        "items": [
+          {
+            "id": "single-expresso",
+            "name": "Single Expresso",
+            "description": "",
+            "price": 1.9,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "double-expresso",
+            "name": "Double Expresso",
+            "description": "",
+            "price": 2.3,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "flat-white",
+            "name": "Flat White",
+            "description": "",
+            "price": 3.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "latte",
+            "name": "Latte",
+            "description": "",
+            "price": 3.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "pumpkin-spiced-latte",
+            "name": "Pumpkin Spiced Latte",
+            "description": "",
+            "price": 3.7,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "cappuccino",
+            "name": "Cappuccino",
+            "description": "",
+            "price": 3.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "macciato",
+            "name": "Macciato",
+            "description": "",
+            "price": 2.4,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "mocha",
+            "name": "Mocha",
+            "description": "",
+            "price": 3.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "hot-chocolate",
+            "name": "Hot Chocolate",
+            "description": "",
+            "price": 3.3,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "tea",
+            "name": "Tea",
+            "description": "From £2.20.",
+            "price": 2.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "americano",
+            "name": "Americano",
+            "description": "",
+            "price": 2.9,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "iced-coffee",
+        "name": "Iced Coffee",
+        "description": "Cold coffee drinks.",
+        "items": [
+          {
+            "id": "iced-latte",
+            "name": "Iced Latte",
+            "description": "",
+            "price": 3.6,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "iced-mocha",
+            "name": "Iced Mocha",
+            "description": "",
+            "price": 4.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "iced-pumpkin-spiced-latte",
+            "name": "Iced Pumpkin Spiced Latte",
+            "description": "",
+            "price": 4.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "iced-americano",
+            "name": "Iced Americano",
+            "description": "",
+            "price": 3.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "oat-milk-upgrade",
+            "name": "Oat Milk Upgrade",
+            "description": "Add oat milk.",
+            "price": 0.3,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "large-drink-upgrade",
+            "name": "Large Drink Upgrade",
+            "description": "Make your drink large.",
+            "price": 0.3,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "syrup-add-on",
+            "name": "Syrup Add-on",
+            "description": "Add syrup.",
+            "price": 0.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      },
+      {
+        "id": "cold-drinks",
+        "name": "Cold Drinks",
+        "description": "Soft drinks, juices and smoothies.",
+        "items": [
+          {
+            "id": "water",
+            "name": "Water",
+            "description": "",
+            "price": 1.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "coca-cola-zero",
+            "name": "Coca-Cola/Zero",
+            "description": "",
+            "price": 2.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "guarana",
+            "name": "Guarana",
+            "description": "",
+            "price": 2.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "apple-juice",
+            "name": "Apple Juice",
+            "description": "",
+            "price": 2.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "apple-fruit-shoot",
+            "name": "Apple Fruit Shoot",
+            "description": "",
+            "price": 1.2,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "red-bull",
+            "name": "Red Bull",
+            "description": "",
+            "price": 2.5,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "fresh-pressed-orange-juice",
+            "name": "Fresh Pressed Orange Juice",
+            "description": "",
+            "price": 4.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "fresh-lemonade",
+            "name": "Fresh Lemonade",
+            "description": "",
+            "price": 4.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "fresh-limeade",
+            "name": "Fresh Limeade",
+            "description": "",
+            "price": 4.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "a-ai-smoothie",
+            "name": "Açai Smoothie",
+            "description": "Açai, banana, strawberries, condensed milk.",
+            "price": 7.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          },
+          {
+            "id": "pulp-smoothie",
+            "name": "Pulp Smoothie",
+            "description": "Choice of passion fruit, soursop, cupuaçu, Barbados cherry, Barbados cherry & orange, or botanical dragon fruit with melon, Barbados cherry and kiwi.",
+            "price": 5.0,
+            "image": null,
+            "tags": [],
+            "available": true
+          }
+        ]
+      }
+    ]
+  }
+]
