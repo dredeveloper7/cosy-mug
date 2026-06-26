@@ -26,7 +26,7 @@
             "name": "The English",
             "description": "1 bacon, 1 Cumberland sausage, egg, 1 hash brown, baked beans, toast, mushrooms and grilled tomatoes.",
             "price": 10.0,
-            "image": null,
+            "image": "/food-images/the-english.webp",
             "tags": [],
             "available": true
           },
