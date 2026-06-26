@@ -37,17 +37,6 @@ function hexToHsl(hex: string): string {
   return `${Math.round(h * 360)} ${Math.round(s * 100)}% ${Math.round(l * 100)}%`;
 }
 
-function LogoPlaceholder({ name, primary }: { name: string; primary: string }) {
-  const initials = name.split(" ").slice(0, 2).map((w) => w[0]).join("").toUpperCase();
-  return (
-    <div
-      className="w-14 h-14 flex-shrink-0 flex items-center justify-center border-2 border-white/40 shadow-lg"
-      style={{ backgroundColor: primary }}
-    >
-      <span className="text-white font-serif text-lg font-bold tracking-widest">{initials}</span>
-    </div>
-  );
-}
 
 type ModalItem = { name: string; image: string | null; description: string };
 
