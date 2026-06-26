@@ -2,6 +2,7 @@ import restaurantData from "@/data/restaurant-data.json";
 import { useEffect, useRef, useState, useMemo, useCallback } from "react";
 import { Search, X, Leaf, Flame, Star, Wheat, Milk, Nut, Sprout, CircleDot } from "lucide-react";
 import logo from "@/assets/logo.png";
+import wallpaper from "@/assets/wallpaper.webp";
 
 const RESTAURANT_ID = "jamon-jamon";
 
@@ -205,28 +206,34 @@ export default function MenuPage() {
       {modalItem && <ImageModal key={modalItem.name} item={modalItem} primary={primary} onClose={() => setModalItem(null)} />}
 
       {/* Hero */}
-      <div
-        className="relative px-5 pt-12 pb-7 overflow-hidden"
-        style={{ backgroundColor: primary }}
-      >
-        <div
-          className="absolute inset-0 pointer-events-none select-none opacity-[0.06]"
-          style={{ backgroundImage: `repeating-linear-gradient(45deg, white 0px, white 1px, transparent 1px, transparent 12px)` }}
+      <div className="relative overflow-hidden" style={{ minHeight: 220 }}>
+        {/* Wallpaper */}
+        <img
+          src={wallpaper}
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+          aria-hidden="true"
         />
-        <div className="relative z-10 flex items-center gap-4">
-          <img src={logo} alt={restaurant.name} className="w-14 h-14 flex-shrink-0 object-contain" />
-          <div className="flex-1 min-w-0 text-white">
-            <p className="text-[10px] font-bold tracking-[0.2em] uppercase opacity-60 mb-1">
-              {restaurant.cuisine}
-            </p>
-            <h1 className="font-serif text-[26px] font-semibold leading-none tracking-tight">
-              {restaurant.name}
-            </h1>
+        {/* Dark gradient overlay for readability */}
+        <div className="absolute inset-0" style={{ background: `linear-gradient(to bottom, ${primary}99 0%, ${primary}e6 60%, ${primary} 100%)` }} />
+
+        {/* Content */}
+        <div className="relative z-10 px-5 pt-12 pb-7">
+          <div className="flex items-center gap-4">
+            <img src={logo} alt={restaurant.name} className="w-14 h-14 flex-shrink-0 object-contain drop-shadow-md" />
+            <div className="flex-1 min-w-0 text-white">
+              <p className="text-[10px] font-bold tracking-[0.2em] uppercase opacity-60 mb-1">
+                {restaurant.cuisine}
+              </p>
+              <h1 className="font-serif text-[26px] font-semibold leading-none tracking-tight drop-shadow">
+                {restaurant.name}
+              </h1>
+            </div>
           </div>
+          <p className="text-[12px] text-white/60 mt-4 leading-relaxed line-clamp-2 font-light tracking-wide">
+            {restaurant.description}
+          </p>
         </div>
-        <p className="relative z-10 text-[12px] text-white/60 mt-4 leading-relaxed line-clamp-2 font-light tracking-wide">
-          {restaurant.description}
-        </p>
       </div>
 
       {/* Sticky: Search + Category tabs */}
